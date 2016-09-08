@@ -13,12 +13,9 @@
     html, body {
       height: 100%;
     }
-    body {
-      background-image: url(<%= @photo_url %>);
-    }
   </style>
 </head>
-<body class="bg-cover m0">
+<body class="bg-cover m0" style="background-image: url(<%= @photo_url %>);">
   <div class="clearfix" style="height: inherit;">
     <div class="col col-6 flex justify-start items-end" style="height: inherit;">
       <a class="h3 white bg-navy muted text-decoration-none m0 p1" href="<%= @photo_link %>">Photo Credit</a>
