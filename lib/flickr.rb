@@ -19,7 +19,6 @@ def flickr
   puts photo
 
   @photo_url = photo["url_h"]
-  # || "https://farm#{farm_id}.staticflickr.com/#{server_id}/#{id}_#{secret}_h.jpg"
   @photo_link = "https://www.flickr.com/photos/#{owner}/#{id}"
 
 end
